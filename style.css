@@ -18,15 +18,17 @@ body {
     margin: 10px 100px;
 }
 
-.header-links, p {
+ul, p {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header-links {
+ul {
     display: flex;
-    padding: 20px;
-    border: 2px solid red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
 }
 
 .header-content {
