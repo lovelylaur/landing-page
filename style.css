@@ -1,11 +1,11 @@
 body {
     min-height: 100vh;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     background-color: #1f2937;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     color: #f9faf8;
@@ -67,11 +67,11 @@ button {
     margin: 40px;
 }
 
-
-
 .header-two {
     text-align: center;
-    border: 2px solid red;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px;
 }
 
 .img-container {
@@ -80,7 +80,9 @@ button {
 }
 
 .box {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     background-color: #3882f6;
+    flex-shrink: 0;
+    border-radius: 12px;
 }
