@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    color: #f9faf8;
 }
 
 .top-line {
