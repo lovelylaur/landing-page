@@ -139,18 +139,33 @@ button {
 .cta-container {
     margin: 130px;
     display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex: 1;
 }
 
 .cta-content {
-    background-color: #3882f6;
-    border-radius: 8px;
-    padding: 20px;
     display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    gap: 6px;
+    padding: 50px;
 }
 
-.cta-content button {
-    border: 10px white;
+.cta-container button {
     box-shadow: 0 0 0 2px white;
     border-radius: 5px;
     font-weight: bold;
+    align-items: center;
+    font-size: 16px;
+    flex-shrink: 0;
+    margin: 30px;
+}
+
+.cta-header {
+    font-weight: bolder;
+    font-size: 20px;
 }
