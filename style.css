@@ -50,10 +50,13 @@ a {
 }
 
 h1 {
+    font-family: "chaloops", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #FFF6E9;
+    color: #ffed9d;
     margin: 0;
+    line-height: 60px;
 }
 
 button {
@@ -78,7 +81,9 @@ button {
 .header-two {
     text-align: center;
     font-size: 36px;
-    font-weight: 900;
+    font-family: "chaloops", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     padding: 50px;
     color: #604CC3;
 }
