@@ -135,3 +135,22 @@ button {
     padding: 20px;
     margin-right: 30px;
 }
+
+.cta-container {
+    margin: 130px;
+    display: flex;
+}
+
+.cta-content {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+}
+
+.cta-content button {
+    border: 10px white;
+    box-shadow: 0 0 0 2px white;
+    border-radius: 5px;
+    font-weight: bold;
+}
